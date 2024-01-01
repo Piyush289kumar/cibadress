@@ -51,16 +51,25 @@ $post_id_by_addbar = $_GET['post_id'];
                     "<b>Ciba Garment</b> Team Connect you as soon as possible" . "</b>" ;
                 
                     
+            }else{
+                $end_user_email = "navednsr3@gmail.com";
+                $subject = "Product Enquery Notification";
+                $body = "<b>Product Enquery Notification</b><br>" .
+                        "<b>Date :- " . date('d M, Y h:i:sa') . "</b><br>".
+                        "<b>Product Details ============ </b><br>" .
+                        "<b>Product Code : </b>" . $row['pro_code'] . "<br>" .
+                        "<b>Product Name : </b>" . $row['title'] . "<br>" .
+                        "<b>Product Price : </b>" . $row['pro_price'] . "<br>" .
+                        "<b>User Details ============ </b><br>" .
+                        "<b>Full Name : </b>" . $row2['first_name'] ." ". $row2['last_name'] . " <br>" .
+                        "<b>User Name : </b>" . $row2['username'] . "<br>" .
+                        "<b>Mobile : </b>" . $row2['phone'] . "<br>" .
+                        "<b>Email : </b>None<br>" .
+                    "<b>Ciba Garment</b> Team Connect you as soon as possible" . "</b>" ;
             }
 
             }
         }
-
-
-
-           
-
-
 
         }
     }
@@ -100,43 +109,8 @@ $post_id_by_addbar = $_GET['post_id'];
     }
  
 ?>
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ciba Garments</title>
-    <link rel="shortcut icon" type="x-con" href="../img/logo.png">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-    <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-
-    <!-- Head Section Start -->
-    <section id="header">
-        <a href="#"><img src="img/logo.png" alt="logo" class="logo" /></a>
-
-        <!-- Nav Bar -->
-        <div>
-            <ul id="navbar">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="index.html">Shop</a></li>
-                <li><a href="index.html">About</a></li>
-                <li><a href="index.html">Contact</a></li>
-                <li><a href="admin/index.php"><i class="far fa-user"></i></a></li>
-                <li id="lg-bag"><i id="darkModeIcon" class="far fa-solid fa-moon" onclick="toggleFnc(this)"></i></li>
-                <a href="#" id="clone"><i class="far fa-times"></i></a>
-            </ul>
-        </div>
-        <div id="mobile">
-            <i id="darkModeIcon" class="far fa-solid fa-moon" onclick="toggleFnc(this)"></i>
-            <i id="bar" class="fas fa-outdent"></i>
-        </div>
-    </section>
-    <!-- Head Section End -->
+<?php include("header.php"); ?>
 
     <section class="section-m1 section-p1" style='text-align:center;'>
         <div id="admin-content">
@@ -145,13 +119,13 @@ $post_id_by_addbar = $_GET['post_id'];
                     <div class="col-md-12">
                         <h3 class="admin-heading">Product Enquery</h3>
                     </div>
-                    <div class="col-md-offset-3 col-md-6">
+                    <div class="col-12">
 
                         <form action="<?php $_SERVER['PHP_SELF'] ?>" method="POST" enctype="multipart/form-data" autocomplete="off">
 
 
                             <!-- <a href="admin/enquery.php?id=<php echo ($row["post_id"]) ?>" class='cart' style='width:110px;'>Enquery</a> -->
-                            <input type="text" name="submit" class="cart" value="Enquery Send Successfully" style='
+                            <input type="button" name="submit" class="cart" value="Enquery Send Successfully" style='
 	background-color: #088178;
 	color: #fff;
     text-align:center;

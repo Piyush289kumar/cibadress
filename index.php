@@ -5,57 +5,18 @@ include('config.php'); ?>
 		<section class="slider">
 			<div class="hero-slider">
 				<!-- Start Single Slider -->
-				<div class="single-slider" style="background-image:url('img/bg1.jpg')">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-7">
-								<!-- <div class="text">
-									<h1>We Provide <span>Education</span> That You Can <span>Trust!</span></h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam. </p>
-									<div class="button">
-										<a href="#" class="btn">Enquiry Button</a>
-										<a href="#" class="btn primary">Learn More</a>
-									</div>
-								</div> -->
-							</div>
-						</div>
-					</div>
+				<div class="single-slider" style="background-image:url('img/bgTop.jpg')">
+				
 				</div>
 				<!-- End Single Slider -->
 				<!-- Start Single Slider -->
-				<div class="single-slider" style="background-image:url('img/bg2.jpg')">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-7">
-								<!-- <div class="text">
-									<h1>We Provide <span>Education</span> That You Can <span>Trust!</span></h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam. </p>
-									<div class="button">
-										<a href="#" class="btn">Enquiry Button</a>
-										<a href="#" class="btn primary">Learn More</a>
-									</div>
-								</div> -->
-							</div>
-						</div>
-					</div>
+				<div class="single-slider" style="background-image:url('img/bg5.jpg')">
+				
 				</div>
 				<!-- Start End Slider -->
 				<!-- Start Single Slider -->
-				<div class="single-slider" style="background-image:url('img/bg3.jpg')">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-7">
-								<!-- <div class="text">
-									<h1>We Provide <span>Education</span> That You Can <span>Trust!</span></h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam. </p>
-									<div class="button">
-										<a href="#" class="btn">Enquiry Button</a>
-										<a href="#" class="btn primary">Learn More</a>
-									</div>
-								</div> -->
-							</div>
-						</div>
-					</div>
+				<div class="single-slider" style="background-image:url('img/bg4.jpg')">
+					
 				</div>
 				<!-- End Single Slider -->
 			</div>
@@ -72,7 +33,7 @@ include('config.php'); ?>
 							<div class="single-schedule first">
 								<div class="inner">
 									<div class="icon">
-										<i class="fa-solid fa-trophy"></i>
+										<i class="fa-solid fa-cart-shopping"></i>
 										<!-- <i class="fa fa-ambulance"></i> -->
 									</div>
 									<div class="single-content">
@@ -89,7 +50,7 @@ include('config.php'); ?>
 							<div class="single-schedule middle">
 								<div class="inner">
 									<div class="icon">
-										<i class="fa-solid fa-school"></i>
+										<i class="fa-solid fa-shop"></i>
 										<!-- <i class="icofont-prescription"></i> -->
 									</div>
 									<div class="single-content">
@@ -108,7 +69,7 @@ include('config.php'); ?>
 								<div class="inner">
 									<div class="icon">
 										<!-- <i class="icofont-ui-clock"></i> -->
-										<i class="fa-solid fa-user-graduate"></i>
+										<i class="fa-solid fa-tags"></i>
 									</div>
 									<div class="single-content">
 										<h4>Opening Hours & Contact</h4>
@@ -117,7 +78,7 @@ include('config.php'); ?>
 											<li class="day">Monday: <span>Close</span></li>
 											
 											<li class="day" style="padding-top: 13px;">Mobile 1: <span>93006-23768</span></li>
-											<li class="day">Mobile 1: <span>99773-66665</span></li>
+											<li class="day">Mobile 2: <span>99773-66665</span></li>
 											
 										</ul>
 										

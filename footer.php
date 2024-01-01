@@ -34,9 +34,9 @@
 									</div>
 									<div class="col-lg-6 col-md-6 col-12">
 										<ul>
-											<li><a href="https://www.valmikisangam.com/ciba/admin/index.php"><i class="fa fa-caret-right" aria-hidden="true"></i>Sign In</a></li>
-											<li><a href="https://www.valmikisangam.com/ciba/admin/index.php"><i class="fa fa-caret-right" aria-hidden="true"></i>Sign Up</a></li>
-											<li><a href="https://www.valmikisangam.com/ciba/admin/index.php"><i class="fa fa-caret-right" aria-hidden="true"></i>View Profile</a></li>
+											<li><a href="https://www.cibadress.com/admin/index.php"><i class="fa fa-caret-right" aria-hidden="true"></i>Sign In</a></li>
+											<li><a href="https://www.cibadress.com/admin/index.php"><i class="fa fa-caret-right" aria-hidden="true"></i>Sign Up</a></li>
+											<li><a href="https://www.cibadress.com/admin/index.php"><i class="fa fa-caret-right" aria-hidden="true"></i>View Profile</a></li>
 											
 										</ul>
 									</div>
@@ -63,7 +63,7 @@
 								<form class="newsletter-inner">
 									<input name="email" placeholder="Email Address" class="common-input" onfocus="this.placeholder = ''"
 										onblur="this.placeholder = 'Your email address'" required="" type="email">
-									<button class="button"><a href="admin/index.php"><i class="fa-brands fa-telegram"></i></a></button>
+									<button class="button"><a href="https://www.cibadress.com/admin/index.php"><i class="fa-brands fa-telegram"></i></a></button>
 								</form>
 							</div>
 						</div>
@@ -77,7 +77,7 @@
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-12">
 							<div class="copyright-content">
-								<p>© Copyright 2024 | All Rights Reserved by <a href="index.php" target="_blank">www.cibadresses.com</a> </p>
+								<p>© Copyright 2024 | All Rights Reserved by <a href="https://www.cibadress.com" target="_blank">www.cibadress.com</a> </p>
 							</div>
 						</div>
 					</div>

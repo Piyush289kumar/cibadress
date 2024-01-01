@@ -42,8 +42,8 @@
 		<!-- Medipro CSS -->
         
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="stylemain_.css">
+        <link rel="stylesheet" href="css/respon.css">
 		<!-- <link rel="stylesheet" href="style1.css"> -->
 
 		<style>
@@ -261,7 +261,7 @@ button.white {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("img/banner/armyUniform.jpg");
+  background-image: url("img/banner/armyUniform2.jpg");
   /* min-width: 580px; */
   width: 49%;
   height: 50vh;
@@ -271,7 +271,7 @@ button.white {
 }
 
 #sm-banner .banner-box2 {
-  background-image: url('img/banner/schoolUniform.jpg');
+  background-image: url('img/banner/schoolUniform2.jpg');
 }
 
 #sm-banner h4 {
@@ -286,7 +286,10 @@ button.white {
   font-size: 28px;
   color: #fff;
   font-weight: 800;
-  background: transparent;
+  padding: 0 5px;
+  background: rgba(23, 105, 186, 0.5);
+  border-radius:14px;
+  text-shadow: #041e42;
 }
 
 #sm-banner span {
@@ -379,8 +382,57 @@ button.white {
   display: none;
 }
 
-@media (max-width:550px){
+.scrollBox{
+	width: 100%;
+	border-radius: 8px;
+	padding: 12px 10px;
+	margin-top: 10px;
+	background: #1769ba;
+	overflow: hidden;	
+}
+.scrollBox p{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	height: 25px;
+	animation : rightToLeft 25s linear infinite;
+}
+@keyframes rightToLeft {
+	from{
+		margin-left: 100%;
+	}
+	to {
+		margin-left: -100%;
+	}
+}
 
+@media (max-width:550px){
+ 
+ .scrollBox p{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	height: 25px;
+	animation : rightToLeft 25s linear infinite;
+}
+@keyframes rightToLeft {
+	from{
+		margin-left: 500px;
+	}
+	to {
+		margin-left: -2400px;
+	}
+}
+
+#emailTop{
+    display:none;
+}
 #logBtn{
   display: block;
 }
@@ -427,8 +479,17 @@ h2 {
   #banner3 .banner-box {
     width: 100%;
   }
-
-
+  
+.slider {
+	padding: 0;
+	margin: -60px 0;
+	margin-bottom:-110px;
+}
+.slider .single-slider {
+	background-size:contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
 }
 
 
@@ -437,7 +498,7 @@ h2 {
     </head>
     <body>
 	
-		<!-- Preloader -->
+		<!-- Preloader 
         <div class="preloader">
             <div class="loader">
                 <div class="loader-outter"></div>
@@ -451,13 +512,13 @@ h2 {
                 </div>
             </div>
         </div>
-         <!-- End Preloader -->
+         - End Preloader -->
 	
 		<!-- Header Area -->
 		<header class="header" >
 			<!-- Topbar -->
 			<div class="topbar">
-				<div class="container">
+				<div class="container-fluid">
 					<div class="row">
 						<div class="col-lg-6 col-md-5 col-12">
 							<!-- Contact -->
@@ -472,10 +533,14 @@ h2 {
 							<ul class="top-contact">
 								<li><i class="fa fa-phone"></i><a href="tel:+919300623768">+91 93006-23768</a></li>
 								<li><i class="fa fa-phone"></i><a href="tel:+919977366665">+91 99773-66665</a></li>
-								<li><i class="fa fa-envelope"></i><a href="mailto:navednsr3@gmail.com">navednsr3@gmail.com</a></li>
+								<li id='emailTop'><i class="fa fa-envelope"></i><a href="mailto:navednsr3@gmail.com">navednsr3@gmail.com</a></li>
 							</ul>
 							<!-- End Top Contact -->
 						</div>
+					</div>
+					<div class="col-12 scrollBox">
+						<!-- single-schedule -->
+						<p>Ciba Dresses | The Tailor Shop | Computer Embroidery | Army Name Plate | Rebon Logo Design | Stitching in School Dress | Police Uniforms | Army Uniform | Security Gard Uniform | Docter Gown | Nursing Dress | Customize Track Suit | School T-Shirt | Flag Stitching | Advocate Blezer | School Blezer & Many More...</p>
 					</div>
 				</div>
 			</div>
@@ -505,7 +570,7 @@ h2 {
 											<li><a href="shop.php">All Product </a></li>
 											<li><a href="privacypolicy.php">About Us </a></li>
 											<li><a href="privacypolicy.php">Contact Us</a></li>
-											<li id='logBtn'><a href="<?php echo $hostname . 'https://www.valmikisangam.com/ciba/admin/index.php' ?>">Log In</a></li>
+											<li id='logBtn'><a href="https://www.cibadress.com/admin/index.php">Log In</a></li>
 										</ul>
 									</nav>
 								</div>
@@ -513,7 +578,7 @@ h2 {
 							</div>
 							<div class="col-lg-2 col-12">
 								<div class="get-quote">
-									<a href="<?php echo $hostname . 'https://www.valmikisangam.com/ciba/admin/index.php' ?>" class="btn">Login</a>
+									<a href="https://www.cibadress.com/admin/index.php" class="btn">Login</a>
 								</div>
 							</div>
 						</div>

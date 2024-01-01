@@ -1,40 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-     <!-- Meta Tags -->
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="keywords" content="Ciba Garments, Ciba Dresses, Ciba, Ciba Jabalpur, Ciba Dress, Ciba Garment, Ciba Uniform, Ciba Cloth, Ciba Jabalpur">
-		<meta name="description" content="">
-		<meta name='copyright' content=''>
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		
-		<!-- Title -->
-        <title>Ciba Dress</title>
-		
-		<!-- Favicon -->
-        <link rel="icon" href="img/logo.png">
-		
-		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
-
-   
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ciba Garments</title>
     <link rel="shortcut icon" type="x-con" href="../img/logo.png">
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     />
     <link rel="stylesheet" href="style.css" />
+
   </head>
 
   <body >
-
-    <!-- OLD HEADER -->
+    
     <!-- Head Section Start -->
     <section id="header">
       <a href="#"><img src="img/logo.png" alt="logo" class="logo" /></a>
 
-       <!-- Nav Bar -->
+      <!-- Nav Bar -->
       <div>
         <ul id="navbar">
           <li><a href="index.php" class="active">Home</a></li>
@@ -51,9 +37,10 @@
         <i id="bar" class="fas fa-outdent"></i>
       </div>
     </section>
-     <!-- Head Section End -->
-    <!-- OLD HEADER -->
-
+    <!-- Head Section End -->
+    
+    
+   
     <!-- Banner Section Start -->
     <section id="hero">
       <h4>Uniforms & Dresses</h4>
@@ -140,14 +127,18 @@
 
       </div>
     </section>
+    
+    <hr>
 
-    <!-- Discount Banner Section -->
+    <!-- Discount Banner Section
     <section id="banner" class="section-m1">
       <h4>Repair Services</h4>
       <h2>Up to <span>70% Off</span> - All t-Shirts & Accessories</h2>
       <button class="normal">Explore More</button>
     </section>
-
+    Discount Banner Section -->
+    
+    
     <!-- New Arrivals Products Section -->
     <section id="product1" class="section-p1">
       <h2>New Arrivals</h2>

@@ -1,6 +1,6 @@
 <?php
-$website_display_default_name = "ciba";
+$website_display_default_name = "Ciba Dress";
 // $hostname = "https://samrastasewasangathan.com";
-$hostname = "http://localhost/cibaGarment";
-$conn = mysqli_connect('localhost', 'root', '', 'ciba_db') or die("Connection Failed!!" . mysqli_connect_error()); 
+$hostname = "https://www.cibadress.com";
+$conn = mysqli_connect('localhost', 'u423777452_cibaOrg', '7W6^RTd:', 'u423777452_cibaDB') or die("Connection Failed!!" . mysqli_connect_error()); 
 ?> 

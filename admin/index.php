@@ -69,9 +69,9 @@ if (isset($_SESSION['username'])) {
                             <label>Password</label>
                             <input type="password" name="password" class="form-control" placeholder="" required>
                         </div>
-                        <div class="form-group">
+                        <!--<div class="form-group">
                             <a href="forgot_password.php">Forgot password?</a>
-                        </div>
+                        </div>-->
                         <input type="submit" name="login" class="btn btn-primary"
                             value="&nbsp;&nbsp;login&nbsp;&nbsp;" />
                         <button class="btn btn-secondary"><a
